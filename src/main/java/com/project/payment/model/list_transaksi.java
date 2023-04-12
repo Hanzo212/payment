@@ -13,9 +13,11 @@ public class list_transaksi {
 	
 	@Id
 	@Column(name="id_transaksi")
-	private int id_transaksi;
+	private Integer id_transaksi;
 	@Column(name = "nama_paket")
 	private String nama_paket;
+	@Column(name = "id_pelanggan")
+	private String id_pelanggan;
 	@Column(name="nama_pelanggan")
 	private String nama_pelanggan;
 	@Column(name="nominal")
