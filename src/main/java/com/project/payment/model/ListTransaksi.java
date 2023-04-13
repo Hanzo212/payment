@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-public class list_transaksi {
+public class ListTransaksi {
 	
 	@Id
 	@Column(name="id_transaksi")
